@@ -15,7 +15,6 @@ The scope is narrow on purpose. An agent identity entry has to answer at least o
 - [Enterprise Products](#enterprise-products)
 - [Developer Tools](#developer-tools)
 - [Reading](#reading)
-- [Footnotes](#footnotes)
 
 ## Trust Layers
 
