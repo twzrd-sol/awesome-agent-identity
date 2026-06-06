@@ -87,7 +87,7 @@ Things you can install and run. Smaller, faster-moving, often gappy.
 - [SPIRE](https://github.com/spiffe/spire) - The reference SPIFFE runtime. CNCF-graduated. Workload identity for the agent-as-workload framing.
 - [@proofxhq/agentpass](https://www.npmjs.com/package/@proofxhq/agentpass) - SDK for AgentPass behavioral trust scoring and sanctions screening for agent payments.
 - [Coinbase x402 reference](https://github.com/coinbase/x402) - Reference implementation of the x402 micropayment protocol.
-- [TWZRD Agent Intel](https://github.com/twzrd-sol/wzrd-final) — Solana-native on-chain trust scoring and x402 cryptographic receipt generation for AI agents. Covers L4 accountability: issues signed V5 trust receipts for agent-to-agent payment interactions. Live at https://intel.twzrd.xyz
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) — Solana-native on-chain trust scoring and x402 cryptographic receipt generation for AI agents. Covers L4 accountability: issues signed V5 trust receipts for agent-to-agent payment interactions. Live at https://intel.twzrd.xyz
 
 ## Reading
 
