@@ -87,8 +87,8 @@ Things you can install and run. Smaller, faster-moving, often gappy.
 - [SPIRE](https://github.com/spiffe/spire) - The reference SPIFFE runtime. CNCF-graduated. Workload identity for the agent-as-workload framing.
 - [@proofxhq/agentpass](https://www.npmjs.com/package/@proofxhq/agentpass) - SDK for AgentPass behavioral trust scoring and sanctions screening for agent payments.
 - [Coinbase x402 reference](https://github.com/coinbase/x402) - Reference implementation of the x402 micropayment protocol.
-- [TWZRD Agent Intel](https://intel.twzrd.xyz) - On-chain behavioral trust scoring for AI agents on Solana. MCP-accessible via `score_agent(wallet)` and `preflight_check(wallet)` (free) and `get_trust_receipt(wallet)` (x402 micropayment). Answers L4: what did this agent do, verifiably. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
-- [TWZRD Agent Intel](https://intel.twzrd.xyz) — Solana-native on-chain trust scoring and x402 cryptographic receipt generation for AI agents. Covers L4 accountability: issues signed V5 trust receipts for agent-to-agent payment interactions. Live at https://intel.twzrd.xyz
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - On-chain behavioral trust scoring for AI agents on Solana. MCP-accessible via `score_wallet_for_intel(wallet)` and `get_readiness_card_tool(seller_wallet)` (free) and `GET /v1/intel/trust/{pubkey}` (x402 micropayment). Answers L4: what did this agent do, verifiably. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) — Solana-native on-chain trust scoring and x402 cryptographic receipt generation for AI agents. Covers L4 accountability: issues signed V6 trust receipts for agent-to-agent payment interactions. Live at https://intel.twzrd.xyz
 
 ## Reading
 
